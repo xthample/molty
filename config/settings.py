@@ -22,7 +22,7 @@ WALLET_ADDRESS = os.environ.get("WALLET_ADDRESS", "0xxxxxxxxxxxxxxxxxxxx")
 # GAME PREFERENCES
 # =============================================================================
 PREFERRED_GAME_TYPE = "free"
-AUTO_CREATE_GAME = False         # If True, create game if none waiting
+AUTO_CREATE_GAME = True         # If True, create game if none waiting
 GAME_MAP_SIZE = "medium"         # "medium" | "large" | "massive"
 
 # =============================================================================
